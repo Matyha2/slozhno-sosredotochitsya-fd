@@ -37,7 +37,9 @@
 .header__theme-menu-button_active {
   border: 1px solid var(--block-accent-color);
 }
-.about p {  
+
+.about p {
+    
   color: var(--primary-text-color);
 }
 .theme-dark .rec {
