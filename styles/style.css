@@ -12,6 +12,8 @@
   padding: 75px 10px 10px 10px;
   background-image: url(../images/cover-image-light.png);
   background-size: cover;
+  height: 100vh;
+  min-height: 600px;
 }
 .rec {
   position: absolute;
@@ -149,6 +151,8 @@
 }
 .footer {
   padding: 10px;
+  height: 100vh;
+  min-height: 600px;
 }
 .footer__container {
   display: flex;
