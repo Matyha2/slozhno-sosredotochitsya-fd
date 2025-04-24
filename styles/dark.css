@@ -9,8 +9,38 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color:#FF0070;
+  --primary-color:#000028;
+  --title-color:#DB00FF;
+  --primary-text-color:#FFC2E6;
+  --block-accent-color:#FF0070;
+
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  background-image: url('../images/cover-image-dark.png');
+}
+.theme-dark .header{
+  background-image: url(../images/cover-image-dark.png);
+}
+.decorated-zone::before{
+  border-top: 1px solid var(--block-accent-color);
+  border-right: 1px solid var(--block-accent-color);
+}
+.decorated-zone::after{
+  border-bottom: 1px solid var(--block-accent-color);
+  border-left: 1px solid var(--block-accent-color);
+}
+.header__theme-menu-button{
+  color:var(--block-accent-color);
+}
+.header__theme-menu-button_active{
+  border: 1px solid var(--block-accent-color);
+}
+.about p{
+  color: var(--primary-text-color);
+}
+.theme-dark .rec{
+  display: block;
 }
