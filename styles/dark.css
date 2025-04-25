@@ -19,6 +19,7 @@
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-image: url("../images/cover-image-dark.png");
+  background-color: var(--primary-color);
 }
 .theme-dark .header {
   background-image: url('../images/cover-image-dark.png');
@@ -39,7 +40,7 @@
 }
 
 .about p {
-    
+
   color: var(--primary-text-color);
 }
 .theme-dark .rec {
