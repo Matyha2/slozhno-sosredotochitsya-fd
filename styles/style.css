@@ -283,6 +283,7 @@
   .header__about-text {
     margin-bottom: 134px;
     inline-size: 491px;
+    max-height: 75px;
   }
   .header__about-text p {
     max-width: 100%;

@@ -14,12 +14,12 @@
   --title-color: #DB00FF;
   --primary-text-color: #F1B2CE;
   --block-accent-color: #FF0070;
+  --bg-color:#000028;
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image:none;
-  background-color: var(--primary-color);
+  background-color: var(--bg-color);
 }
 .theme-dark .header {
   background-image: url('../images/cover-image-dark.png');

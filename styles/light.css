@@ -14,11 +14,12 @@
   --title-color: #ffc2e6;
   --primary-text-color: #353430;
   --block-accent-color: #353430;
+  --bg-color:#FFF1F7;
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image: url("../images/cover-image-light.png");
+  background-color:var(--bg-color);
 }
 .theme-light .header {
   background-image: url("../images/cover-image-light.png");
