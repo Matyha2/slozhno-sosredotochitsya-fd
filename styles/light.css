@@ -15,16 +15,14 @@
   --primary-text-color: #353430;
   --block-accent-color: #353430;
   --bg-color:#FFF1F7;
+  --cover-image:url('../images/cover-image-light.png');
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color:var(--bg-color);
-  color: var(--primary-text-color);
 }
-.theme-light .header {
-  background-image: url("../images/cover-image-light.png");
-}
+
 .decorated-zone::before {
   border-top: 1px solid var(--block-accent-color);
   border-right: 1px solid var(--block-accent-color);

@@ -5,6 +5,8 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-image: var(--cover-image);
+
 }
 .header {
   position: relative;
@@ -12,7 +14,6 @@
   height: 100vh;
   min-height: 668px;
   padding: 75px 10px 10px 10px;
-  background-image: url(../images/cover-image-light.png);
   background-size: cover;
   object-fit: cover;
 }

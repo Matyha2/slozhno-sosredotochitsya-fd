@@ -15,12 +15,12 @@
   --primary-text-color: #F1B2CE;
   --block-accent-color: #FF0070;
   --bg-color:#000028;
+  --cover-image:url('../images/cover-image-dark.png');
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color: var(--bg-color);
-  background-image: url('../images/cover-image-dark.png');
   
   
 }
