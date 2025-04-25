@@ -14,6 +14,7 @@
   padding: 75px 10px 10px 10px;
   background-image: url(../images/cover-image-light.png);
   background-size: cover;
+  object-fit: cover;
 }
 .rec {
   position: absolute;
@@ -118,7 +119,7 @@
 .about__title-thin {
   margin-bottom: 10px;
   color: var(--primary-color);
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
 }
 .about p {
