@@ -24,7 +24,7 @@
   
 }
 .theme-dark .header {
-  background-image: url('../images/cover-image-dark.png');
+  background-image: none;
 }
 .decorated-zone::before {
   border-top: 1px solid var(--block-accent-color);
