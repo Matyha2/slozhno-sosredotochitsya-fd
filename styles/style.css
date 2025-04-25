@@ -1,20 +1,19 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   font-family: "IBM Plex mono", sans-serif;
+  background-color: var(--bg-color);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--bg-color);
-
 }
 .header {
   position: relative;
   display: grid;
+  height: 100vh;
+  min-height: 668px;
   padding: 75px 10px 10px 10px;
   background-image: url(../images/cover-image-light.png);
   background-size: cover;
-  height: 100vh;
-  min-height: 668px;
 }
 .rec {
   position: absolute;
@@ -85,8 +84,8 @@
   margin-bottom: 55px;
   color: var(--title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 0.82;
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 .header__about-text {
   margin-bottom: 66px;
@@ -99,7 +98,7 @@
   font-weight: 700;
   font-size: 18px;
 }
-.content{
+.content {
   margin-top: -9px;
 }
 .about {
@@ -130,13 +129,13 @@
 .about p:not(:last-child) {
   margin-bottom: 20px;
 }
-.about__text-margin{
+.about__text-margin {
   margin-bottom: 20px;
 }
-.last__block{
+.last__block {
   margin-bottom: 0;
 }
-.about__text-block p:not(:last-child){
+.about__text-block p:not(:last-child) {
   margin-bottom: 20px;
 }
 .about__href-text {
@@ -171,14 +170,13 @@
   background-size: cover;
 }
 .footer {
-  padding: 10px;
-  height: 100vh;
-  min-height: 645px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  min-height: 645px;
+  padding: 10px;
   text-align: center;
-
 }
 .footer__title {
   color: var(--title-color);
@@ -187,8 +185,8 @@
 }
 @media (min-width: 768px) {
   .header {
-    padding: 192px 20px 100px 20px;
     min-height: 1024px;
+    padding: 192px 20px 100px 20px;
   }
   .header__theme-menu {
     margin-bottom: 124px;
@@ -197,14 +195,14 @@
     gap: 9px;
   }
   .header__title {
-    margin-left: -22px;
     margin-bottom: 110px;
+    margin-left: -22px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
   .header__about-text {
     justify-self: end;
-    inline-size: 366px;
     max-height: 119px;
+    inline-size: 366px;
   }
   .header__about-text p {
     max-width: 305px;
@@ -221,7 +219,7 @@
     bottom: 20px;
     left: 20px;
   }
-  .content{
+  .content {
     margin: 0;
   }
   .about__text-grid {
@@ -236,7 +234,6 @@
   }
   .first__title-big-margin {
     margin-bottom: 20px;
-   
   }
   .about {
     padding: 60px 20px 20px 20px;
@@ -284,8 +281,8 @@
     display: grid;
     gap: 20px;
   }
-  .footer{
-  min-height: 1024px;
+  .footer {
+    min-height: 1024px;
   }
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -293,8 +290,8 @@
 }
 @media (min-width: 1024px) {
   .header {
-    padding: 20px 20px 0px 20px;
     min-height: 768px;
+    padding: 20px 20px 0px 20px;
   }
   .header__theme-menu {
     justify-self: center;
@@ -310,9 +307,9 @@
     margin-bottom: 78px;
   }
   .header__about-text {
+    max-height: 75px;
     margin-bottom: 134px;
     inline-size: 491px;
-    max-height: 75px;
   }
   .header__about-text p {
     max-width: 100%;
@@ -325,7 +322,7 @@
     gap: 20px;
   }
   .footer {
-    padding: 12px 10px 10px 10px;
     min-height: 760px;
+    padding: 12px 10px 10px 10px;
   }
 }
