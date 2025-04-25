@@ -20,12 +20,11 @@
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color: var(--bg-color);
-  color: #F1B2CE;
+  background-image: url('../images/cover-image-dark.png');
+  
   
 }
-.theme-dark .header {
-  background-image: none;
-}
+
 .decorated-zone::before {
   border-top: 1px solid var(--block-accent-color);
   border-right: 1px solid var(--block-accent-color);
