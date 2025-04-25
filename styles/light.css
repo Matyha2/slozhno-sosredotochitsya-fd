@@ -40,4 +40,6 @@
 .about p {
   color: var(--primary-text-color);
 }
-
+.theme-light .rec {
+  display: none;
+}

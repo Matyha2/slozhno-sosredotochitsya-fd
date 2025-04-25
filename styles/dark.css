@@ -21,9 +21,6 @@
   background-image: url("../images/cover-image-dark.png");
   background-color: var(--primary-color);
 }
-.theme-dark .header {
-  background-image: url('../images/cover-image-dark.png');
-}
 .decorated-zone::before {
   border-top: 1px solid var(--block-accent-color);
   border-right: 1px solid var(--block-accent-color);
