@@ -20,6 +20,7 @@
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color: var(--bg-color);
+  color: #F1B2CE;
   
 }
 .theme-dark .header {

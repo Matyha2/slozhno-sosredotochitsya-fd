@@ -20,6 +20,7 @@
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color:var(--bg-color);
+  color: var(--primary-text-color);
 }
 .theme-light .header {
   background-image: url("../images/cover-image-light.png");
