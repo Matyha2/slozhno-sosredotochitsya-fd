@@ -20,6 +20,7 @@
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color: var(--bg-color);
+  
 }
 .theme-dark .header {
   background-image: url('../images/cover-image-dark.png');

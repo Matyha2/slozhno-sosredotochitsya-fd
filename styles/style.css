@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   font-family: "IBM Plex mono", sans-serif;
-  background-image: url(../images/cover-image-light.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
