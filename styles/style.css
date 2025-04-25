@@ -14,8 +14,6 @@
   height: 100vh;
   min-height: 668px;
   padding: 75px 10px 10px 10px;
-  background-size: cover;
-  object-fit: cover;
 }
 .rec {
   position: absolute;
