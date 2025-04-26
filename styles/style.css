@@ -1,8 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   font-family: "IBM Plex mono", sans-serif;
-  background-image: var(--cover-image);
   background-color: var(--bg-color);
+  background-image: var(--cover-image);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -329,27 +329,27 @@
   }
 }
 @media (prefers-color-scheme: dark) {
-  :root{
-    --accent-color: #FF0070;
+  :root {
+    --accent-color: #ff0070;
     --primary-color: #000028;
-    --title-color: #DB00FF;
-    --primary-text-color: #F1B2CE;
-    --block-accent-color: #FF0070;
-    --bg-color:#000028;
-    --cover-image:url('../images/cover-image-dark.png');
-    --btn-hover:#FF007066;
+    --title-color: #db00ff;
+    --primary-text-color: #f1b2ce;
+    --block-accent-color: #ff0070;
+    --bg-color: #000028;
+    --cover-image: url("../images/cover-image-dark.png");
+    --btn-hover: #ff007066;
   }
 }
 
 @media (prefers-color-scheme: light) {
-  :root{
+  :root {
     --accent-color: #ff8dcb;
     --primary-color: #353430;
     --title-color: #ffc2e6;
     --primary-text-color: #353430;
     --block-accent-color: #353430;
-    --bg-color:#FFF1F7;
-    --cover-image:url('../images/cover-image-light.png');
-    --btn-hover:#32312D66;
+    --bg-color: #fff1f7;
+    --cover-image: url("../images/cover-image-light.png");
+    --btn-hover: #32312d66;
   }
 }
