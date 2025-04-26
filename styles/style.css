@@ -291,13 +291,13 @@
 }
 @media (min-width: 1024px) {
   .header {
-    min-height: 788px;
+    min-height: 768px;
     padding: 20px 20px 0px 20px;
   }
   .header__theme-menu {
     justify-self: center;
     max-width: 240px;
-    margin-bottom: 248px;
+    margin-bottom: 255px;
   }
   .header__theme-menu-list {
     display: grid;
@@ -305,11 +305,11 @@
     gap: 10px;
   }
   .header__title {
-    margin-bottom: 90px;
+    margin-bottom: 95px;
   }
   .header__about-text {
-    max-height: 75px;
-    margin-bottom: 134px;
+    max-height: 71px;
+    margin-bottom: 118px;
     inline-size: 491px;
   }
   .header__about-text p {
