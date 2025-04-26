@@ -197,7 +197,7 @@
   }
   .header__title {
     margin-bottom: 110px;
-    margin-left: -22px;
+    margin-left: -19px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
   .header__about-text {
