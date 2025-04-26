@@ -325,25 +325,3 @@
     padding: 12px 10px 10px 10px;
   }
 }
-@media (prefers-color-scheme: dark) {
-  :root { /* Default dark theme */
-    --accent-color: #FF0070;
-    --primary-color: #000028;
-    --title-color: #DB00FF;
-    --primary-text-color: #F1B2CE;
-    --block-accent-color: #FF0070;
-    --bg-color:#000028;
-    --cover-image:url('../images/cover-image-dark.png');
-  }
-}
-@media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: #ff8dcb;
-    --primary-color: #353430;
-    --title-color: #ffc2e6;
-    --primary-text-color: #353430;
-    --block-accent-color: #353430;
-    --bg-color:#FFF1F7;
-    --cover-image:url('../images/cover-image-light.png');
-  }
-}
