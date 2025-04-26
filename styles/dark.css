@@ -8,6 +8,6 @@
   --cover-image: url("../images/cover-image-dark.png");
   --btn-hover: #ff007066;
 }
-.theme-dark .rec {
+.theme-dark .header__rec {
   display: block;
 }
