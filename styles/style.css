@@ -232,6 +232,7 @@
     gap: 19px;
   }
   .first__title {
+    line-height: 1.28;
     max-width: 236px;
     margin-bottom: 22px !important;
     color: var(--block-accent-color);
