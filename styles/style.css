@@ -6,7 +6,6 @@
   background-size: cover;
   background-attachment: fixed;
   background-image: var(--cover-image);
-
 }
 .header {
   position: relative;
@@ -122,7 +121,7 @@
   font-size: 18px;
 }
 .about p {
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   font-size: 18px;
   line-height: 23.4px;
 }
@@ -327,15 +326,24 @@
   }
 }
 @media (prefers-color-scheme: dark) {
-  body {
-      background-color: black;
-      color: white;
+  :root { /* Default dark theme */
+    --accent-color: #FF0070;
+    --primary-color: #000028;
+    --title-color: #DB00FF;
+    --primary-text-color: #F1B2CE;
+    --block-accent-color: #FF0070;
+    --bg-color:#000028;
+    --cover-image:url('../images/cover-image-dark.png');
   }
 }
-
 @media (prefers-color-scheme: light) {
-  body {
-      background-color: white;
-      color: black;
+  :root {
+    --accent-color: #ff8dcb;
+    --primary-color: #353430;
+    --title-color: #ffc2e6;
+    --primary-text-color: #353430;
+    --block-accent-color: #353430;
+    --bg-color:#FFF1F7;
+    --cover-image:url('../images/cover-image-light.png');
   }
 }
