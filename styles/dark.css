@@ -1,12 +1,12 @@
-:root.theme-dark{
-  --accent-color: #FF0070;
+:root.theme-dark {
+  --accent-color: #ff0070;
   --primary-color: #000028;
-  --title-color: #DB00FF;
-  --primary-text-color: #F1B2CE;
-  --block-accent-color: #FF0070;
-  --bg-color:#000028;
-  --cover-image:url('../images/cover-image-dark.png');
-  --btn-hover:#FF007066;
+  --title-color: #db00ff;
+  --primary-text-color: #f1b2ce;
+  --block-accent-color: #ff0070;
+  --bg-color: #000028;
+  --cover-image: url("../images/cover-image-dark.png");
+  --btn-hover: #ff007066;
 }
 .theme-dark .rec {
   display: block;
