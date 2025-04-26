@@ -18,23 +18,23 @@
   --cover-image:url('../images/cover-image-light.png');
 }
 
-.decorated-zone::before {
+.theme-light .decorated-zone::before {
   border-top: 1px solid var(--block-accent-color);
   border-right: 1px solid var(--block-accent-color);
 }
-.decorated-zone::after {
+.theme-light .decorated-zone::after {
   border-bottom: 1px solid var(--block-accent-color);
   border-left: 1px solid var(--block-accent-color);
 }
-.header__theme-menu-button {
+.theme-light .header__theme-menu-button {
   color: var(--block-accent-color);
 }
-.header__theme-menu-button_active {
+.theme-light .header__theme-menu-button_active {
   border: 1px solid var(--block-accent-color);
 }
-.about p {
+.theme-light .about p {
   color: var(--primary-text-color);
 }
-.theme-light .rec {
+.theme-light .theme-light .rec {
   display: none;
 }
