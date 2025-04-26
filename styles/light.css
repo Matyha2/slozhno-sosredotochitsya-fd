@@ -17,9 +17,4 @@
   --bg-color:#FFF1F7;
   --cover-image:url('../images/cover-image-light.png');
   --btn-hover:#32312D66;
-  --cursor-point:pointer;
-
-}
-.theme-light .theme-light .rec {
-  display: none;
 }

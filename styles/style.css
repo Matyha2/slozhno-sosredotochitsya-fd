@@ -1,11 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   font-family: "IBM Plex mono", sans-serif;
+  background-image: var(--cover-image);
   background-color: var(--bg-color);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: var(--cover-image);
 }
 .header {
   position: relative;

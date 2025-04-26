@@ -17,7 +17,6 @@
   --bg-color:#000028;
   --cover-image:url('../images/cover-image-dark.png');
   --btn-hover:#FF007066;
-  --cursor-point:pointer;
 }
 .theme-dark .rec {
   display: block;
