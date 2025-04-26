@@ -291,13 +291,13 @@
 }
 @media (min-width: 1024px) {
   .header {
-    min-height: 768px;
+    min-height: 788px;
     padding: 20px 20px 0px 20px;
   }
   .header__theme-menu {
     justify-self: center;
     max-width: 240px;
-    margin-bottom: 236px;
+    margin-bottom: 248px;
   }
   .header__theme-menu-list {
     display: grid;
@@ -305,7 +305,7 @@
     gap: 10px;
   }
   .header__title {
-    margin-bottom: 78px;
+    margin-bottom: 90px;
   }
   .header__about-text {
     max-height: 75px;
