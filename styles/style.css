@@ -329,7 +329,7 @@
   }
 }
 @media (prefers-color-scheme: dark) {
-  :root.theme-dark {
+  .theme-dark {
     --accent-color: #FF0070;
     --primary-color: #000028;
     --title-color: #DB00FF;
@@ -342,7 +342,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-light {
+  .theme-light {
     --accent-color: #ff8dcb;
     --primary-color: #353430;
     --title-color: #ffc2e6;
