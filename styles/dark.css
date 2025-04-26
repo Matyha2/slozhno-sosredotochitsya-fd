@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-dark {
+.theme-dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -16,8 +16,12 @@
   --block-accent-color: #FF0070;
   --bg-color:#000028;
   --cover-image:url('../images/cover-image-dark.png');
+  --btn-hover:#FF007066;
+  --cursor-point:pointer;
 }
-
+.header__theme-menu-button_active:hover {
+  outline: 1px solid var(--btn-hover);
+}
 .theme-dark .decorated-zone::before {
   border-top: 1px solid var(--block-accent-color);
   border-right: 1px solid var(--block-accent-color);
@@ -30,12 +34,12 @@
   color: var(--block-accent-color);
 }
 .theme-dark .header__theme-menu-button_active {
-  border: 1px solid var(--block-accent-color);
+  outline: 1px solid var(--block-accent-color);
 }
 
 .theme-dark .about p {
   color: var(--primary-text-color);
 }
-.theme-dark .theme-dark .rec {
+.theme-dark .rec {
   display: block;
 }
