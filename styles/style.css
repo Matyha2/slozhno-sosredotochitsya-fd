@@ -339,9 +339,6 @@
     --cover-image:url('../images/cover-image-dark.png');
     --btn-hover:#FF007066;
   }
-  .theme-dark .rec {
-    display: block;
-  }
 }
 
 @media (prefers-color-scheme: light) {
