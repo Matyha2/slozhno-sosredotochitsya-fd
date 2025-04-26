@@ -190,20 +190,21 @@
     padding: 192px 20px 100px 20px;
   }
   .header__theme-menu {
-    margin-bottom: 124px;
+    margin-bottom: 127px;
   }
   .header__theme-menu-list {
     gap: 9px;
   }
   .header__title {
     margin-bottom: 110px;
-    margin-left: -19px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-left: -21px;
+
   }
   .header__about-text {
     justify-self: end;
     max-height: 119px;
     inline-size: 366px;
+    margin-bottom: 38px;
   }
   .header__about-text p {
     max-width: 305px;
@@ -226,7 +227,7 @@
   .about__text-grid {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 22px;
+    gap: 19px;
   }
   .first__title {
     max-width: 236px;
@@ -323,7 +324,7 @@
     gap: 20px;
   }
   .footer {
-    min-height: 760px;
+    min-height: 762px;
     padding: 15px 10px 10px 10px;
   }
 }
