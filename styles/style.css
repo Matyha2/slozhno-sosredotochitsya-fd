@@ -1,6 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
-  font-family: "IBM Plex mono", sans-serif;
+  font-family: var(--font-primary), sans-serif;
   background-color: var(--bg-color);
   background-image: var(--cover-image);
   background-position: center;
@@ -209,7 +209,7 @@
   .header__about-text p {
     max-width: 305px;
   }
-  .rec {
+  .header__rec {
     top: 22px;
     right: 50px;
   }
