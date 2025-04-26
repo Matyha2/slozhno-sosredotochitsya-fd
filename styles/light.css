@@ -20,26 +20,6 @@
   --cursor-point:pointer;
 
 }
-.header__theme-menu-button_active:hover {
-  outline: 1px solid var(--btn-hover);
-}
-.theme-light .decorated-zone::before {
-  border-top: 1px solid var(--block-accent-color);
-  border-right: 1px solid var(--block-accent-color);
-}
-.theme-light .decorated-zone::after {
-  border-bottom: 1px solid var(--block-accent-color);
-  border-left: 1px solid var(--block-accent-color);
-}
-.theme-light .header__theme-menu-button {
-  color: var(--block-accent-color);
-}
-.theme-light .header__theme-menu-button_active {
-  outline: 1px solid var(--block-accent-color);
-}
-.theme-light .about p {
-  color: var(--primary-text-color);
-}
 .theme-light .theme-light .rec {
   display: none;
 }
