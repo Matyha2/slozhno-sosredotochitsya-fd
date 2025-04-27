@@ -1,12 +1,12 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
+  color: var(--accent-color);
   font-family: var(--font-primary), sans-serif;
   background: var(--cover-image);
   background-color: var(--bg-color);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  color: var(--accent-color);
 }
 .header {
   position: relative;
@@ -16,10 +16,10 @@
   padding: 75px 10px 10px 10px;
 }
 .header__rec {
-  display: var(--display-of-rec);
   position: absolute;
   top: 12px;
   right: 40px;
+  display: var(--display-of-rec);
   color: var(--block-accent-color);
   font-weight: normal;
   font-size: 18px;
@@ -152,11 +152,11 @@
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
-.about__href-text:hover{
-  border-bottom:var(--primary-text-color) 1px solid;
+.about__href-text:hover {
+  border-bottom: var(--primary-text-color) 1px solid;
 }
-.about__href-text:active{
-  border:var(--primary-text-color) 1px solid;
+.about__href-text:active {
+  border: var(--primary-text-color) 1px solid;
 }
 .first__title {
   margin-bottom: 21px;
@@ -351,4 +351,3 @@
     padding: 15px 10px 10px 10px;
   }
 }
-
