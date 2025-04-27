@@ -5,7 +5,7 @@
   --primary-text-color: #353430;
   --block-accent-color: #353430;
   --bg-color: #fff1f7;
-  --cover-image: url("../images/cover-image-light.png");
+  --cover-image: url(../images/cover-image-light.png);
   --btn-hover: #32312d66;
   --display-of-rec:none;
 }
