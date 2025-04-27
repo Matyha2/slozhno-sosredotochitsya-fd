@@ -340,25 +340,18 @@
     padding: 15px 10px 10px 10px;
   }
 }
-/*
 @media (prefers-color-scheme: light) {
   :root {
-   --accent-color: #ff8dcb;
-
     --bg-color: #fff1f7;
     --cover-image: url("../images/cover-image-light.png");
  
   }
 }
-*/
-/*
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent-color: #ff0070;
     --bg-color: #000028;
     --cover-image: url("../images/cover-image-dark.png");
   
   }
 
 }
-*/
