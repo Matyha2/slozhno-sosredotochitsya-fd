@@ -199,7 +199,7 @@
     padding: 192px 20px 100px 20px;
   }
   .header__theme-menu {
-    margin-bottom: 127px;
+    margin-bottom: 126px;
   }
   .header__theme-menu-list {
     gap: 9px;
@@ -212,7 +212,7 @@
   .header__about-text {
     justify-self: end;
     max-height: 119px;
-    margin-bottom: 38px;
+    margin-bottom: 30px;
     inline-size: 366px;
   }
   .header__about-text p {
