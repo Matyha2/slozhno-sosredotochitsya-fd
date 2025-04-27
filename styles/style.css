@@ -342,7 +342,9 @@
 @media (prefers-color-scheme: light) {
   :root {
    --accent-color: #ff8dcb;
-    --cover-image: url("../images/cover-image-light.png");
+
+    --bg-color: #fff1f7;
+    
  
   }
 }
@@ -350,7 +352,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
-    --cover-image: url("../images/cover-image-dark.png");
+    --bg-color: #000028;
+    
   
   }
 
