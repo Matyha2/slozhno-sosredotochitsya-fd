@@ -342,8 +342,7 @@
 @media (prefers-color-scheme: light) {
   :root {
    --accent-color: #ff8dcb;
-    --primary-color: #353430;
-    --title-color: #ffc2e6;
+
    
     --bg-color: #fff1f7;
     --cover-image: url("../images/cover-image-light.png");
@@ -354,8 +353,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
-    --primary-color: #000028;
-    --title-color: #db00ff;
+   
     
     --bg-color: #000028;
     --cover-image: url("../images/cover-image-dark.png");
