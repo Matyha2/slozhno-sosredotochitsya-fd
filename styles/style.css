@@ -340,18 +340,4 @@
     padding: 15px 10px 10px 10px;
   }
 }
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: #fff1f7;
-    --cover-image: url("../images/cover-image-light.png");
- 
-  }
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000028;
-    --cover-image: url("../images/cover-image-dark.png");
-  
-  }
 
-}
