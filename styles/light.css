@@ -7,8 +7,6 @@
   --bg-color: #fff1f7;
   --cover-image: url("../images/cover-image-light.png");
   --btn-hover: #32312d66;
-}
-.theme-light .header__rec {
-  display: none;
+  --display-of-rec:none;
 }
 
