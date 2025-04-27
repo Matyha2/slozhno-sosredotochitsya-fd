@@ -341,7 +341,6 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-   --accent-color: #ff8dcb;
 
    
     --bg-color: #fff1f7;
@@ -352,7 +351,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent-color: #ff0070;
+
    
     
     --bg-color: #000028;
