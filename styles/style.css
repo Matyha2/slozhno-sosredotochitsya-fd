@@ -341,15 +341,23 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-
-    --display-of-rec:none;
+    --accent-color: #ff8dcb;
+    --primary-color: #353430;
+    --title-color: #ffc2e6;
+    --primary-text-color: #353430;
+    --block-accent-color: #353430;
+ 
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-  
-    --display-of-rec:block;
+    --accent-color: #ff0070;
+    --primary-color: #000028;
+    --title-color: #db00ff;
+    --primary-text-color: #f1b2ce;
+    --block-accent-color: #ff0070;
+
   }
 
 }
