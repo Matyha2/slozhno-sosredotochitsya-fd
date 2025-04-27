@@ -15,7 +15,7 @@
   padding: 75px 10px 10px 10px;
 }
 .header__rec {
-  display: none;
+  display: block;
   position: absolute;
   top: 12px;
   right: 40px;
