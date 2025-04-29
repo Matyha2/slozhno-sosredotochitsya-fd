@@ -57,8 +57,8 @@
   bottom: 10px;
   left: 10px;
   border: none;
-  border-left: 1px solid var(--block-accent-color);
   border-bottom: 1px solid var(--block-accent-color);
+  border-left: 1px solid var(--block-accent-color);
 }
 .header__theme-menu {
   justify-self: end;
@@ -77,9 +77,9 @@
   background-color: inherit;
 }
 .header__theme-menu-button:focus {
-  outline: none;
   border: none;
   border-bottom: 1px solid var(--block-accent-color);
+  outline: none;
 }
 .header__theme-menu-button:hover {
   outline: 1px solid var(--btn-hover);
@@ -96,7 +96,7 @@
   line-height: 0.82;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
-.header__title{
+.header__title {
   margin-bottom: 55px;
 }
 .header__text {
@@ -111,6 +111,9 @@
   font-size: 18px;
   line-height: 1.32;
 }
+.content .content__section:first-child{
+  padding: 40px 10px 0px 10px;
+}
 .content__section {
   padding: 50px 10px 0px 10px;
 }
@@ -120,7 +123,6 @@
   font-weight: 700;
   font-size: 18px;
 }
-
 .content__section-cards-position {
   display: grid;
   grid-template-columns: 1fr;
@@ -136,13 +138,13 @@
 .content__section-text-spacing {
   margin-bottom: 20px;
 }
-article>p {
+article > p {
   margin-bottom: 20px;
 }
-.top-title{
+.top-title {
   margin-bottom: 20px;
 }
-.last-block-of-text p{
+.last-block-of-text p {
   margin-bottom: 0px;
 }
 .content__section-href-text {
@@ -153,8 +155,8 @@ article>p {
   border-bottom: var(--primary-text-color) 1px solid;
 }
 .content__section-href-text:focus {
-  outline: none;
   border: var(--primary-text-color) 1px solid;
+  outline: none;
 }
 .content__intro-title {
   margin-bottom: 21px;
@@ -204,7 +206,7 @@ article>p {
     justify-self: end;
     margin-bottom: 195px;
     inline-size: 366px;
-  } 
+  }
   .header__rec {
     top: 22px;
     right: 50px;
@@ -227,8 +229,8 @@ article>p {
     margin-bottom: 22px !important;
     line-height: 1.28;
   }
-
-  .content__section {
+  .content__section,
+  .content .content__section:first-child{
     padding: 60px 20px 20px 20px;
   }
   .pictures {
@@ -297,7 +299,6 @@ article>p {
   .header__text {
     margin-bottom: 139px;
     inline-size: 491px;
-
   }
   .header__text p {
     max-width: 100%;
