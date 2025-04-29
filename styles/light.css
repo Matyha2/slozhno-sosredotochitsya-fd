@@ -9,4 +9,17 @@
   --btn-hover: #32312d66;
   --display-of-rec:none;
 }
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --primary-color: #353430;
+    --title-color: #ffc2e6;
+    --primary-text-color: #353430;
+    --block-accent-color: #353430;
+    --bg-color: #fff1f7;
+    --cover-image: url(../images/cover-image-light.png);
+    --btn-hover: #32312d66;
+    --display-of-rec:none;
+  }
+}
 

@@ -9,4 +9,10 @@
   --btn-hover: #ff007066;
   --display-of-rec:block;
 }
-
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #ff0070;
+    --bg-color: #000028;
+    --cover-image: url("../images/cover-image-dark.png");
+  }
+}

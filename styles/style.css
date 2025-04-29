@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   color: var(--accent-color);
-  font-family: var(--font-primary), sans-serif;
+  font-family: var(--font-primary), var(--font-spare);
   background: var(--cover-image);
   background-color: var(--bg-color);
   background-position: center;
@@ -39,7 +39,8 @@
 .decorated-zone {
   position: relative;
 }
-.decorated-zone::before {
+.decorated-zone::before,
+.decorated-zone::after {
   content: "";
   position: absolute;
   top: 10px;
@@ -51,15 +52,13 @@
   border-right: 1px solid var(--block-accent-color);
 }
 .decorated-zone::after {
-  content: "";
-  position: absolute;
+  top: auto;
+  right: auto;
   bottom: 10px;
   left: 10px;
-  width: 25px;
-  height: 25px;
   border: none;
-  border-bottom: 1px solid var(--block-accent-color);
   border-left: 1px solid var(--block-accent-color);
+  border-bottom: 1px solid var(--block-accent-color);
 }
 .header__theme-menu {
   justify-self: end;
@@ -77,103 +76,91 @@
   text-transform: lowercase;
   background-color: inherit;
 }
+.header__theme-menu-button:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--block-accent-color);
+}
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--btn-hover);
+  cursor: pointer;
+}
 .header__theme-menu-button_active {
   outline: 1px solid var(--block-accent-color);
+  pointer-events: none;
 }
-.header__theme-menu-button_active:hover {
-  outline: 1px solid var(--btn-hover);
-}
-.header__theme-menu-button_active:active {
-  border: none;
-  border-bottom: 1px solid var(--btn-hover);
-  outline: none;
-}
-.header__title {
-  margin-bottom: 55px;
+.header__title,
+.footer__title {
   color: var(--title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.82;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
-.header__about-text {
-  max-height: 122px;
+.header__title{
+  margin-bottom: 55px;
+}
+.header__text {
   margin-bottom: 66px;
   background-color: var(--accent-color);
   inline-size: 100%;
 }
-.header__about-text p {
+.header__text p {
   max-width: 305px;
   color: var(--primary-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.32;
 }
-.content {
-  margin-top: -9px;
-}
-.about {
+.content__section {
   padding: 50px 10px 0px 10px;
 }
-.about__title {
+.content__section-title {
   margin-bottom: 10px;
   color: var(--primary-color);
   font-weight: 700;
   font-size: 18px;
 }
 
-.about__grid-of-blocks {
+.content__section-cards-position {
   display: grid;
   grid-template-columns: 1fr;
 }
-.about__title-thin {
-  margin-bottom: 10px;
-  color: var(--primary-color);
+.content__section-title-thin {
   font-weight: normal;
-  font-size: 18px;
 }
-.about p {
+.content__section p {
   color: var(--primary-text-color);
   font-size: 18px;
   line-height: 23.4px;
 }
-.about p:not(:last-child) {
+.content__section-text-spacing {
   margin-bottom: 20px;
 }
-.about__text-margin {
+article>p {
   margin-bottom: 20px;
 }
-.last__block {
-  margin-bottom: 0;
-}
-.about__text-block p:not(:last-child) {
+.top-title{
   margin-bottom: 20px;
 }
-.about__href-text {
+.last-block-of-text p{
+  margin-bottom: 0px;
+}
+.content__section-href-text {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
-.about__href-text:hover {
+.content__section-href-text:hover {
   border-bottom: var(--primary-text-color) 1px solid;
 }
-.about__href-text:active {
+.content__section-href-text:focus {
+  outline: none;
   border: var(--primary-text-color) 1px solid;
 }
-.first__title {
+.content__intro-title {
   margin-bottom: 21px;
   color: var(--block-accent-color);
 }
-.first__title-big-margin {
-  margin-bottom: 20px;
-  color: var(--primary-color);
-  font-weight: 700;
-  font-size: 18px;
-}
-.first__title-low-margin {
-  margin-bottom: 12px;
-  color: var(--primary-color);
-  font-weight: 700;
-  font-size: 18px;
-}
+
 .title-decor {
   background-color: var(--accent-color);
 }
@@ -186,7 +173,6 @@
 }
 .pictures__container img {
   width: 100%;
-  height: auto;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,36 +186,25 @@
   padding: 10px;
   text-align: center;
 }
-.footer__title {
-  color: var(--title-color);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  text-shadow: 2px 2px 0 var(--accent-color);
-}
+
 @media (min-width: 768px) {
   .header {
     min-height: 1024px;
     padding: 192px 20px 100px 20px;
   }
   .header__theme-menu {
-    margin-bottom: 126px;
-  }
-  .header__theme-menu-list {
-    gap: 9px;
+    margin-bottom: 175px;
   }
   .header__title {
-    margin-bottom: 110px;
+    margin-bottom: 160px;
     margin-left: -21px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  .header__about-text {
+  .header__text {
     justify-self: end;
-    max-height: 119px;
-    margin-bottom: 30px;
+    margin-bottom: 195px;
     inline-size: 366px;
-  }
-  .header__about-text p {
-    max-width: 305px;
-  }
+  } 
   .header__rec {
     top: 22px;
     right: 50px;
@@ -242,32 +217,22 @@
     bottom: 20px;
     left: 20px;
   }
-  .content {
-    margin: 0;
-  }
-  .about__text-grid {
+  .content__section-text-container {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 19px;
   }
-  .first__title {
+  .content__intro-title {
     max-width: 236px;
     margin-bottom: 22px !important;
-    color: var(--block-accent-color);
     line-height: 1.28;
   }
-  .first__title-big-margin,
-  .first__title-low-margin {
-    margin-bottom: 20px;
-  }
-  .about {
+
+  .content__section {
     padding: 60px 20px 20px 20px;
   }
   .pictures {
     padding: 60px 20px 61px 20px;
-  }
-  .about__title {
-    margin-bottom: 10px;
   }
   .pictures__container img {
     height: 100%;
@@ -303,7 +268,6 @@
     grid-row-end: 5;
   }
   .pictures__container {
-    display: grid;
     gap: 20px;
   }
   .footer {
@@ -321,28 +285,27 @@
   .header__theme-menu {
     justify-self: center;
     max-width: 240px;
-    margin-bottom: 255px;
+    margin-bottom: 272px;
   }
   .header__theme-menu-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
   }
   .header__title {
-    margin-bottom: 95px;
+    margin-bottom: 115px;
   }
-  .header__about-text {
-    max-height: 71px;
-    margin-bottom: 118px;
+  .header__text {
+    margin-bottom: 139px;
     inline-size: 491px;
+
   }
-  .header__about-text p {
+  .header__text p {
     max-width: 100%;
   }
-  .first__title {
+  .content__intro-title {
     max-width: 314px;
   }
-  .about__grid-of-blocks {
+  .content__section-cards-position {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
