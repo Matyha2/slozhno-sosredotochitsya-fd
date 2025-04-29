@@ -169,6 +169,9 @@ article > p {
 .pictures {
   padding: 50px 10px 42px 10px;
 }
+.pictures .top-title{
+  margin-bottom: 10px;
+}
 .pictures__container {
   display: grid;
   gap: 10px;
@@ -232,6 +235,9 @@ article > p {
   .content__section,
   .content .content__section:first-child{
     padding: 60px 20px 20px 20px;
+  }
+  .pictures .top-title{
+    margin-bottom: 20px;
   }
   .pictures {
     padding: 60px 20px 61px 20px;
