@@ -10,6 +10,6 @@
 - ✨ **Плавные анимации** всех интерактивных элементов
 
 ### 🛠 Использованные технологии:
-`HTML5` `CSS3` `JavaScript` `BEM` `Perfect Pixel` `Mobile First`
+`HTML5` `CSS3` `BEM` `Perfect Pixel` `Mobile First`
 
 https://github.com/Matyha2/slozhno-sosredotochitsya-fd
